@@ -24,4 +24,4 @@ http://aberrator.astronomy.net/
 More at: 
   https://erellaz.com/
   
-![Script Output](Fourier_optics.png)
+![Script Output](Fourier_optic.png)
