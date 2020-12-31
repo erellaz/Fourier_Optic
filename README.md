@@ -1,10 +1,10 @@
 # Fourier_Optic
 Python scripts doing Fourier optics
 
-First we generate an aperture mask in an array to reprsent the aperture of a telescope or lens, then we solve Fraunhofer 
-diffraction equation numerically using Fourier transform, at a given wavelength, at focus,  for that aperture.
+First we generate an aperture mask in a numpy array to represent the aperture of a telescope or lens, then, at a given wavelength, at focus, for that aperture we solve Fraunhofer 
+diffraction equation numerically using Fourier transform.
 
-Last we plot PSF (raw, gamma corrected to see the Iry disk better and in 2D slice) and MTF (3D and 2D slice) to evaluate the results.
+Last we plot the PSF (3D raw, 3D gamma corrected to see the Airy disk better and in 2D slice) and MTF (3D and 2D slice) to evaluate the results.
 
 Usage: python Fourier_Optics_PSF_MDF_of_Aperture.py
 
