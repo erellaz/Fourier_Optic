@@ -1,4 +1,4 @@
-# Fourier_Optic
+# Fourier Optic
 Python scripts doing Fourier optics
 
 First we generate an aperture mask in a numpy array to represent the aperture of a telescope or lens, then, at a given wavelength, at focus, for that aperture we solve Fraunhofer 
