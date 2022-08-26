@@ -9,14 +9,15 @@ Second we plot the PSF (3D raw, 3D gamma corrected to see the Airy disk better a
 Usage: python Fourier_Optics_PSF_MDF_of_Aperture.py
 
 Some useful tips:
+ - Read the excellent "Introduction to Fourier Optics", by Joseph Goodman. A rigorous explanation of what this code is doing is given in chapter 1 to 5, and in particular in chapters 4 to 5. 
  - the support array needs to be much bigger than the mask to avoid
  artefacts in the Fourier tansform.
  - if new to fft in python, read and understand fftflip doc.
  - with cv2, arrays needs to be normalized before saving to image, 
  otherwise you may end up with an all black image while the pyplot looks fine.
  - calculating PSF on pixels is easy. The somewhat tricky part is to correctly 
- assign physical units. This is a good read on the subject:
- https://www.strollswithmydog.com/wavefront-to-psf-to-mtf-physical-units/
+ assign physical units. See Goodman, chapter 5.
+
 
 Also check:
 http://aberrator.astronomy.net/
